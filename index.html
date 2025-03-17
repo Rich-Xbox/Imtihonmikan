@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmlar Kutubxonasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="blue">M</span>OVIES<span class="blue">!</span></h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Film nomini kiriting...">
+            <select id="sortSelect">
+                <option value="">All</option>
+                <option value="az">Horor</option>
+                <option value="za">Animation</option>
+                <option value="za">Romantic</option>
+                <option value="za">Mashhur</option>
+                <option value="za">Trailer</option>
+                <option value="za">Fantastica</option>
+                <option value="za">Darama</option>
+            </select>
+            <select id="sortSelect">
+                <option value="">Saralash</option>
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+            </select>
+            <button id="searchButton">Qidirish</button>
+        </div>
+        <div class="movies-grid" id="moviesGrid"></div>
+    </div>
+
+    <script src="movies.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    font-size: 3em;
+}
+.blue {
+    color: #00f;
+}
+.search-bar {
+    margin: 20px 0;
+}
+.search-bar input, .search-bar select {
+    padding: 10px;
+    width: 200px;
+}
+.search-bar button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.movie-card {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    position: relative;
+}
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.more-info {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.hidden {
+    display: none;
+}
